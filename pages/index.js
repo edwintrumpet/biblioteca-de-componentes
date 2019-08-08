@@ -1,3 +1,10 @@
+import { Fragment } from 'react'
+import Layout from '../components/Layout'
+
 export default () => (
-  <h1>Home works!</h1>
+  <Fragment>
+    <Layout>
+      <h1>Home works!</h1>
+    </Layout>
+  </Fragment>
 )
