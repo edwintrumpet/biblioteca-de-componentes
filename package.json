@@ -4,9 +4,16 @@
   "description": "Es una biblioteca de componentes reutilizables para múltiples propósitos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "Edwin García",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
