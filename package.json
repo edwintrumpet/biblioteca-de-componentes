@@ -1,0 +1,12 @@
+{
+  "name": "bilioteca-de-componentes",
+  "version": "1.0.0",
+  "description": "Es una biblioteca de componentes reutilizables para múltiples propósitos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Edwin García",
+  "license": "MIT"
+}
