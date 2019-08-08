@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import Head from 'next/head'
+import Navbar from './Navbar'
 
 export default ({
   children,
@@ -14,6 +15,7 @@ export default ({
         <meta name='keywords' content={keywords} />
         <meta name='description' content={description} />
       </Head>
+      <Navbar />
       {children}
 
       <style jsx global>{`
@@ -25,6 +27,12 @@ export default ({
               padding: 0;
               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
               Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          }
+          .contenedor{
+              position: absolute;
+              padding-top: 5rem;
+              min-height: 100%;
+              width: 100%;
           }
         `}</style>
     </Fragment>

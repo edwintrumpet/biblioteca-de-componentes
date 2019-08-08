@@ -1,9 +1,9 @@
 import Layout from '../components/Layout'
 
 export default () => (
-  <Layout>
+  <Layout className='layout'>
     <div className='contenedor'>
-      <h1>Home works!</h1>
+      <h1>Boton works!</h1>
     </div>
   </Layout>
 )
