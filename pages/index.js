@@ -1,5 +1,3 @@
-export default () =>  (
-
-    <h1>Home works!</h1>
-
+export default () => (
+  <h1>Home works!</h1>
 )

@@ -4,6 +4,7 @@
   "description": "Es una biblioteca de componentes reutilizables para múltiples propósitos",
   "main": "index.js",
   "scripts": {
+    "lint": "standard",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -15,5 +16,13 @@
     "next": "^9.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
