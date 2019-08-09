@@ -15,7 +15,7 @@ function Error ({ statusCode }) {
       <style jsx>{`
         .contenedor {
             background-color: #9B1B30;
-            color: #FFF;
+            color: #ebffeb;
             display: flex;
             justify-content: center;
             align-items: center;

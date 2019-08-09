@@ -21,7 +21,8 @@ export default () => {
               top: 0;
               left: 0;
               width: 100%;
-              background-color: #77212E;
+              /* background-color: #80ff80; */
+              background-color: #269c26;
               display: flex;
               flex-direction: column;
               align-items: center;
@@ -30,7 +31,8 @@ export default () => {
           }
           a{
               text-decoration: none;
-              color: #FFF;
+              /*color: #3c503c;*/
+              color: #ebffeb;
           }
           h1 {
               font-weight: normal;
